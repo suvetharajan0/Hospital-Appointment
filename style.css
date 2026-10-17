@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(36, 36, 37);
+    color: white;
+}
+.container header{
+   font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(5, 5, 75);
+    padding: 15px;
+    align-items: center;
+}
+.container nav a{
+    color: white;
+    gap: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.container nav a:hover{
+    background-color:rgb(95, 95, 250);
+    color: black;
+    font-weight: 18px;
+    border-radius: 10px;
+}
+#about{
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+#about h1{
+    margin-bottom: 10px;
+}
+#about p{
+    line-height: 20px;
+    color:aliceblue;
+}
+.doc-container{
+   display: flex;
+   flex-direction: row;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+    transition: 3s;
+}
+#doctorss h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.docters{
+    background-color: rgb(5, 5, 75);
+    width: 350px;
+    height: 250px;
+    padding: 40px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+.doc-container:hover{
+    transform: scaleX(100px);
+}
+.docters h2{
+    font-size: 20px;
+}
+#services{
+  margin-left: 40%;
+}
+#services h2{
+    margin-left:6%;
+}
+#services ul{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 30px;
+  align-items: center;
+  margin-right:70%;
+}
+#services li{
+    line-height: 50px;
+}
+#appointments h1{
+   text-align: center;
+}
+#appointments-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(5, 5, 75);
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#appointments-form input,select,button{
+    flex: 1;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+#appointments-form button{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(5, 5, 75);
+}
+#message{
+    text-align:center;
+    margin-bottom: 20px;
+    color: greenyellow;
+}
+footer{
+    background-color: rgb(5, 5, 75);
+    padding: 30px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}

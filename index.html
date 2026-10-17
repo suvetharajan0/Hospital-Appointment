@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <header>
+        <h1>City Care Hospital</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#doctorss">Doctors</a>
+        <a href="#services">Services</a>
+        <a href="#appointments"> Book Appointment</a>
+    </nav>
+    </div>
+    <section id="about">
+        <h1>About City Care Hospital</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, 
+            nulla? Exercitationem, tempore enim at quae rem pariatur quaerat eum fugit provident sunt! Quas, esse, tenetur officiis debitis labore 
+            soluta hic dolorem rerum fugiat voluptatem illo maiores nisi. Ipsum similique mollitia rerum vitae natus commodi impedit quia praesentium 
+            incidunt nesciunt nemo placeat, dicta quae quidem excepturi eaque fuga officia non. Ratione amet eius saepe nihil consequuntur perferendis. 
+            Magni officia nam rerum iste saepe a sit excepturi! Id qui ullam dolore facere deserunt ut nulla dignissimos error ea similique provident, 
+            harum, beatae blanditiis dolorem totam consequuntur quidem temporibus debitis nemo vero laudantium!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, temporibus sunt blanditiis quis non accusamus vel repellendus magni eveniet 
+                quod nihil facilis rerum aperiam adipisci molestiae sint voluptatum exercitationem error soluta. Error, consequuntur asperiores. 
+                Suscipit explicabo eveniet ducimus. Veniam iure dolore assumenda ipsam quas amet dolores, 
+                unde debitis maxime aspernatur?</p>
+    </section>
+    <section id="doctorss">
+         <h1>Doctors List</h1>
+        <div class="doc-container">
+           
+            <div class="docters">
+                <h2>Dr. Kaviya</h2>
+                <p>Cardiologist</p>
+                <p>Experience: 10 Years</p>
+            </div>
+            <div class="docters">
+                <h2>Dr. Vishnu Priya</h2>
+                <p>Dermatologist</p>
+                <p>Experience: 7 Years</p>
+            </div>
+            <div class="docters">
+                <h2>Dr. Priya Sharma</h2>
+                <p>General Physician</p>
+                <p>Experience: 10 Years</p>
+            </div>
+        </div>
+    </section>
+     <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Checkup ✔</li>
+            <li>Heart Checkup ✔</li>
+            <li>Skin Treatment ✔</li>
+            <li>Blood Test ✔</li>
+        </ul>
+     </section>
+      <section id="appointments">
+        <h1>Book Your Slot</h1>
+        <form id="appointments-form">
+            <input type="text" placeholder="Name" id="name">
+            <input type="email" name="email" id="email"  placeholder="email" required>
+            <select name="doctors" id="doctors-option">
+                <option value="">Select Doctors</option>
+                <option value="Dr. Kaviya">Dr. Kaviya</option> 
+                <option value="Dr. Vishnu Priya">Dr. Vishnu Priya</option>
+                <option value="Dr. Priya Sharma">Dr. Priya Sharma</option>
+            </select>
+            <input type="date" name="date" id="date">
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <p id="message"></p>
+      </section>
+      <footer>
+        <p>&copy; City Care Hospital</p>
+      </footer>
+
+      <script src="script.js"></script>
+</body>
+</html>
